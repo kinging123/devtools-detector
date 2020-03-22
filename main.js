@@ -1,4 +1,7 @@
 (function() {
+    if (window.disableDevToolsDetection) {
+      return;
+    }
     function fireEvent(isOpen) {
         window.dispatchEvent(
             new CustomEvent("devtoolschange", {
