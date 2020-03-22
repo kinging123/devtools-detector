@@ -9,7 +9,9 @@
         if (isNaN(start) || isNaN(end) || end - start > allow) {
             window.dispatchEvent(
               new CustomEvent("devtoolschange", {
-                isOpen: isOpen
+                detail: {
+                    isOpen: isOpen
+                }
               })
             );
         }
