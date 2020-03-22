@@ -1,4 +1,4 @@
-# detect-devtools
+# DevTools Detector
 Detect whether DevTools is open, using `debugger;` statement
 
 This project uses the code in [this dev.to article](https://dev.to/composite/a-simple-way-to-detect-devtools-2ag0)
